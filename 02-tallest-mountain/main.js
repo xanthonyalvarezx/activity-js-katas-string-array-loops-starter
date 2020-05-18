@@ -9,3 +9,12 @@
 */
 
 // YOUR CODE HERE
+let mountains = [1000, 145000, 100000,750000, 600000, 5000]
+let i = 0
+let tallestMountain = document.querySelector('#text')
+while(i < mountains.length){
+  tallestMountain.innerText = ('The tallest mountain is' + ' ' + Math.max.apply(null,mountains) + ' ' + 'feet tall')
+   i++
+}
+
+
